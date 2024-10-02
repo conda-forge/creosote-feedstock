@@ -1,5 +1,5 @@
 {% set name = "creosote" %}
-{% set version = "3.0.2" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fredrikaverpil/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 10fcf887b68c0af1d7e0e0ef2d3ae2f77a1b59f78e704b46f9c64d7b217e3fbd
+  sha256: d05d13a41b725ae3851a05a8c35257c849c64aadf5280a3a709ce3e74571cb38
 
 build:
   noarch: python
