@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: creosote
-  version: "4.2.0"
+  version: "5.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/fredrikaverpil/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: db2d642004ae38231d42e9e1c7a3b0f5ddf8df00beee1305f881ef4c7c59fbed
+  sha256: 7dc12965ff42b70f7241205f0cd563d6435e918478a9fbe4f4ba12a7868e1408
 
 build:
   number: 0
@@ -33,7 +33,6 @@ requirements:
     - nbformat >=5.10.4,<6.0
     - pip-requirements-parser >=32.0.1,<33.1
     - tomli >=2.1.0,<3.0.0
-    - typing_extensions >=4.12.2
 
 tests:
   - python:
