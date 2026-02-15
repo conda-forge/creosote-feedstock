@@ -33,7 +33,6 @@ requirements:
     - nbformat >=5.10.4,<6.0
     - pip-requirements-parser >=32.0.1,<33.1
     - tomli >=2.1.0,<3.0.0
-    - typing_extensions >=4.12.2
 
 tests:
   - python:
