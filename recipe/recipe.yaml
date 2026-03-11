@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: creosote
-  version: "5.1.0"
+  version: "5.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/fredrikaverpil/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 8e9ae10c30229f0edcf54d80beff3fd5ae311911a3726b2b9354c340dbe5feb4
+  sha256: 85e4f0afce17dc323e75171755e9f52f4059972c994bbbbfa0ebac3e26d3b348
 
 build:
   number: 0
